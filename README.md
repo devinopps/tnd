@@ -19,8 +19,8 @@
 * Интерактивные элементы (аккордеон, hover-эффекты) для удержания внимания
 * Форма регистрации проста и работает без лишних полей
 ## Карта сайта
-![Sitemap](https://github.com/devnopps/tnd/raw/master/sitemap.png)
+![Sitemap](sitemap.png)
 ## Wireframe и дизайн в Figma
-![Wireframe](https://github.com/devnopps/tnd/raw/master/fw.png)
+![Wireframe](fw.png)
 ## Рабочий лендинг
 [Ссылка](https://devinopps.github.io/tnd/)
