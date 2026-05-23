@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UX/UI-дизайн с нуля</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container header-inner">
+        <a href="#" class="logo">UX/UI Academy</a>
+        <nav id="nav">
+          <ul>
+            <li>
+              <a href="#about">О курсе</a>
+            </li>
+            <li>
+              <a href="#program">Программа</a>
+            </li>
+            <li>
+              <a href="#reviews">Отзывы</a>
+            </li>
+            <li>
+              <a href="#register">Регистрация</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="#register" class="btn btn-primary desktop-btn"> Записаться </a>
+        <div class="burger" id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <h1>Стань UX/UI-дизайнером с нуля</h1>
+          <p> Практический курс с проектами и портфолио </p>
+          <a href="#register" class="btn btn-primary"> Записаться на курс </a>
+        </div>
+        <div class="hero-visual reveal">
+          <img src="images/badui1.png" class="hero-overlay" </img>
+          <img src="images/badui2.png" class="hero-overlay" </img>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title reveal"> Почему выбирают этот курс </h2>
+        <p class="section-subtitle reveal"> Максимум практики, современный подход и обучение, ориентированное на реальную работу UX/UI-дизайнера. </p>
+        <div class="features-grid">
+          <div class="feature-card reveal">
+            <h3>Практика на реальных проектах</h3>
+            <p> Создавай интерфейсы и кейсы для портфолио уже во время обучения. </p>
+          </div>
+          <div class="feature-card reveal">
+            <h3>Куратор с опытом работы</h3>
+            <p> Подберем человека с реальным опытом в индустрии. </p>
+          </div>
+          <div class="feature-card reveal">
+            <h3>Подготовка портфолио</h3>
+            <p> Итоговые проекты помогут уверенно выйти на рынок труда. </p>
+          </div>
+          <div class="feature-card reveal">
+            <h3>Онлайн в удобное время</h3>
+            <p> Обучайся из любой точки мира в комфортном темпе. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="program">
+      <div class="container">
+        <h2 class="section-title reveal"> Программа курса </h2>
+        <div class="accordion">
+          <div class="accordion-item active">
+            <button class="accordion-header"> Введение в UX/UI <span>+</span>
+            </button>
+            <div class="accordion-content">
+              <div class="accordion-content-inner"> Основы UX/UI-дизайна, принципы интерфейсов, современные digital-продукты. </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header"> UX-исследования <span>+</span>
+            </button>
+            <div class="accordion-content">
+              <div class="accordion-content-inner"> Анализ пользователей, CJM, user flow, интервью и тестирование гипотез. </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header"> Wireframes и прототипы <span>+</span>
+            </button>
+            <div class="accordion-content">
+              <div class="accordion-content-inner"> Создание каркасов, интерактивных прототипов и логики интерфейсов. </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header"> UI и дизайн-системы <span>+</span>
+            </button>
+            <div class="accordion-content">
+              <div class="accordion-content-inner"> Цвета, типографика, компоненты, дизайн-системы и accessibility. </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header"> Работа в Figma <span>+</span>
+            </button>
+            <div class="accordion-content">
+              <div class="accordion-content-inner"> Auto Layout, компоненты, прототипирование и командная работа. </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header"> Портфолио и карьера <span>+</span>
+            </button>
+            <div class="accordion-content">
+              <div class="accordion-content-inner"> Подготовка кейсов, резюме, собеседования и поиск работы. </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="reviews">
+      <div class="container">
+        <h2 class="section-title reveal"> Что говорят студенты </h2>
+        <p class="section-subtitle reveal"> Выпускники курса уже работают в digital-компаниях и создают реальные продукты. </p>
+        <div class="reviews-grid">
+          <div class="review-card reveal">
+            <div class="review-top">
+              <img src="images/anna.png" class="avatar"></img>
+              <div>
+                <h4>Анна</h4>
+                <div class="stars">★★★★★</div>
+              </div>
+            </div>
+            <p> После курса я собрала портфолио и получила первую работу UX/UI-дизайнером. </p>
+          </div>
+          <div class="review-card reveal">
+            <div class="review-top">
+              <img src="images/maxim.png" class="avatar"></img>
+              <div>
+                <h4>Максим</h4>
+                <div class="stars">★★★★★</div>
+              </div>
+            </div>
+            <p> Очень понравилась практика и работа с реальными задачами бизнеса. </p>
+          </div>
+          <div class="review-card reveal">
+            <div class="review-top">
+              <img src="images/kati.png" class="avatar"></img>
+              <div>
+                <h4>Екатерина</h4>
+                <div class="stars">★★★★★</div>
+              </div>
+            </div>
+            <p> всё объясняется понятно, а кураторы действительно помогают)) </p>
+          </div>
+          <span></span>
+        </div>
+        <h3 class="section-title reveal"> Партнеры</h3>
+        <div class="partners reveal">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Tinkoff_logo_2024.svg" class="partner" alt="Тинькофф">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/Vkusvill_textlogo_2021.svg" class="partner" alt="Тинькофф">
+        </div>
+      </div>
+    </section>
+    <section id="register">
+      <div class="container">
+        <h2 class="section-title reveal"> Запишись на курс </h2>
+        <p class="section-subtitle reveal"> Оставьте заявку и получите консультацию по программе обучения. </p>
+        <div class="form-wrapper reveal">
+          <form id="registerForm">
+            <input type="text" id="name" placeholder="Ваше имя" />
+            <input type="email" id="email" placeholder="Ваш Email" />
+            <button class="btn btn-primary" type="submit"> Отправить заявку </button>
+          </form>
+          <div class="success-message" id="successMessage"> Заявка успешно отправлена! </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="cta-block reveal">
+          <h2> Начни карьеру в UX/UI уже сегодня </h2>
+          <p> Освойте востребованную профессию, создайте сильное портфолио и получите практический опыт на реальных проектах. </p>
+          <a href="#register" class="btn btn-primary"> Записаться сейчас </a>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container footer-grid">
+        <div>
+          <div class="footer-title"> UX/UI Academy </div>
+          <div class="footer-text"> Онлайн-курс по UX/UI-дизайну для начинающих специалистов. </div>
+        </div>
+        <div>
+          <div class="footer-title"> Контакты </div>
+          <div class="footer-text"> hello@uxacademy.ru </div>
+          <div class="footer-text"> +7 (985) 441-20-91 </div>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
